@@ -1,0 +1,16 @@
+set(PROJECT_SOURCES
+    ${PROJECT_SOURCES}
+    ${CMAKE_CURRENT_SOURCE_DIR}/DatabaseDialog.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/DatabaseDialog.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/DatabaseDialog.ui
+    ${CMAKE_CURRENT_SOURCE_DIR}/ExpenseDialog.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/ExpenseDialog.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/ExpenseDialog.ui
+    ${CMAKE_CURRENT_SOURCE_DIR}/IncomeDialog.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/IncomeDialog.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/IncomeDialog.ui
+    ${CMAKE_CURRENT_SOURCE_DIR}/CategoryDialog.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/CategoryDialog.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/CategoryDialog.ui
+    PARENT_SCOPE
+)
